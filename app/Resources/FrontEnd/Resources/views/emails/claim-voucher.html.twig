@@ -10,7 +10,7 @@
     {% set emailHeaderUrl = urlPrefix ~ '/images/print/instant/voucher_instantwin.png' %}
 {% endif %}
 
-{% set emailLogoUrl = urlPrefix ~ '/images/print/March-Mania-2021-1200h.png' %}
+{% set emailLogoUrl = urlPrefix ~ '/images/print/March-Mania-1200h.png' %}
 {% set logoWidth = " width:150px;" %}
 {% set mainColor = "#000000" %}
 {% set playersClubDesk = "{{ playersClubDesk }}" %}
@@ -226,7 +226,7 @@
                                                 <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" class="border">
                                                     <tr>
                                                         <td class="topbg" valign="top" align="center" style="padding-top:20px; padding-left:10px; padding-bottom:20px; padding-right:10px;">
-                                                
+
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -260,8 +260,7 @@
                                                     <tr>
                                                         <td id="h3" valign="top"  style="padding-top:{{ padding10 }};padding-bottom:10px;padding-left:15px;padding-right:15px; text-align:center;{% if isDownloadPdf %} font-size:14px; {% endif %}">
                                                             <span class="text3" style="font-family:'Roboto', sans-serif; color:#000000; font-weight:300;{% if not isDownloadPdf %} font-size:14px; {% endif %}line-height:18px;">
-                                                                To redeem your reward, simply present this voucher at the {{ playersClubDesk }} and a team member
-                                                                will validate your voucher and present you with your reward. Then it's yours to enjoy!
+                                                                To redeem your reward, simply swipe your Signature Rewards card at any Swinomish Casino & Lodge promotional kiosk during the dates shown below. Then it's yours to enjoy!
                                                             </span>
                                                         </td>
                                                     </tr>
@@ -272,9 +271,8 @@
                                                                     <td valign="top" style="padding-top:{{ padding5 }};padding-bottom:{{ padding5 }};padding-left:15px;padding-right:15px; text-align:left;{% if isDownloadPdf %} font-size:13px;{% endif %}">
                                                                         <span class="text6" style="font-family:'Roboto', sans-serif; color:#000000; font-weight:300;{% if not isDownloadPdf %} font-size:13px;{% endif %} line-height:16px;">
                                                                             <strong>ISSUED TO:</strong> {{ issuedTo }}<br>
-                                                                            <strong>PLAYERS CLUB CARD NUMBER:</strong> {{ playersCard }}<br>
+                                                                            <strong>SIGNATURE REWARDS CARD NUMBER:</strong> {{ playersCard }}<br>
                                                                             <strong>DATE ISSUED:</strong> {{ issuedDate|date("m/d/Y") }}<br>
-                                                                            <strong>EXPIRATION DATE:</strong> {{ expireDate|date("m/d/Y") }}<br>
                                                                             <strong>UNIQUE VOUCHER NUMBER:</strong> {{ vid }}
                                                                         </span>
                                                                     </td>
