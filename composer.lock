@@ -1062,12 +1062,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Engaged-Nation/doctrine-portal.git",
-                "reference": "879c264f6f1599b4d19db653d10b8ea8d62b6737"
+                "reference": "037eb43c3fc5ebb4554b9234668ed5a106c663ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Engaged-Nation/doctrine-portal/zipball/879c264f6f1599b4d19db653d10b8ea8d62b6737",
-                "reference": "879c264f6f1599b4d19db653d10b8ea8d62b6737",
+                "url": "https://api.github.com/repos/Engaged-Nation/doctrine-portal/zipball/037eb43c3fc5ebb4554b9234668ed5a106c663ba",
+                "reference": "037eb43c3fc5ebb4554b9234668ed5a106c663ba",
                 "shasum": ""
             },
             "require": {
@@ -1075,7 +1075,6 @@
                 "php": ">=5.5.9",
                 "zircote/swagger-php": "^2.0"
             },
-            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -1095,7 +1094,7 @@
                 "source": "https://github.com/Engaged-Nation/doctrine-portal/tree/master",
                 "issues": "https://github.com/Engaged-Nation/doctrine-portal/issues"
             },
-            "time": "2022-02-14T18:24:01+00:00"
+            "time": "2022-02-14T19:38:26+00:00"
         },
         {
             "name": "engaged-nation/lib-central-admin-client",
@@ -1117,7 +1116,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^6.0"
             },
-            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -1156,7 +1154,6 @@
                 "phpunit/phpunit": "^5.6",
                 "symfony/symfony": "3.2.*"
             },
-            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -1204,7 +1201,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^6.0"
             },
-            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -1227,12 +1223,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Engaged-Nation/portal-core.git",
-                "reference": "eb54ea455858c38506e9c888339c1d3b45b91c6a"
+                "reference": "3809057a5bba097ed215fd6b41b35239e9a4fd6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Engaged-Nation/portal-core/zipball/eb54ea455858c38506e9c888339c1d3b45b91c6a",
-                "reference": "eb54ea455858c38506e9c888339c1d3b45b91c6a",
+                "url": "https://api.github.com/repos/Engaged-Nation/portal-core/zipball/3809057a5bba097ed215fd6b41b35239e9a4fd6c",
+                "reference": "3809057a5bba097ed215fd6b41b35239e9a4fd6c",
                 "shasum": ""
             },
             "require": {
@@ -1263,7 +1259,6 @@
                 "consolidation/robo": "^1.0",
                 "phpunit/phpunit": "^5.6"
             },
-            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -1284,7 +1279,7 @@
                 "source": "https://github.com/Engaged-Nation/portal-core/tree/master",
                 "issues": "https://github.com/Engaged-Nation/portal-core/issues"
             },
-            "time": "2022-02-15T18:27:03+00:00"
+            "time": "2022-02-21T19:34:02+00:00"
         },
         {
             "name": "grasmash/expander",
